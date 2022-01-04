@@ -7,21 +7,81 @@
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="bilde/favicon.svg" />
   </head>
   <header>
-    <nav>
-      <ul>
-        <li><a href="oliviasrudsar_portfolio.html">Forside</a></li>
-        <li><a href="om_meg.html">Om meg</a></li>
-        <li><a href="tema2.html">Tema 2</a></li>
-        <li><a href="tema3.html">Tema 3</a></li>
-        <li><a href="tema4.html">Tema 4</a></li>
-        <li><a href="tema5.html">Tema 5</a></li>
-      </ul>
-    </nav>
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="bilde/Artboard 1.svg" />
+        </a>
+      </div>
+      <a href="om_meg.html">Om meg</a>
+      <div class="dropdown">
+        <button class="dropbtn">Portfolio</button>
+        <div class="dropdown-content">
+          <a href="tema2.html">Tema 2</a>
+          <a href="tema3.html">Tema 3</a>
+          <a href="tema4.html">Tema 4</a>
+          <a href="tema5.html">Tema 5</a>
+        </div>
+      </div>
+      <a href="index.html">Forside</a>
+    </div>
   </header>
+
   <body>
-    <main></main>
+    <main>
+      <section id="first_section_2">
+        <h1>TEMA 2</h1>
+      </section>
+
+      <section id="second_section_2">
+        <div class="section_wrapper">
+          <div class="col_overskrift">
+            <h1>Grunnleggende HTML</h1>
+          </div>
+          <div class="col_text">
+            <h3>Oppgavebeskrivelse</h3>
+            <p></p>
+            <h3>Min rolle</h3>
+            <p></p>
+            <h3>Hva har jeg lært</h3>
+            <p></p>
+            <h3>Prosses</h3>
+            <p></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="third_section_2">
+        <div class="section_wrapper">
+          <div class="col_text">
+            <h2>Resultat</h2>
+            <p></p>
+          </div>
+          <div class="col_bilde">
+            <img src="bilde/test-bilde.jpg" alt="test-bilde" />
+            <img src="bilde/test2.jpg" alt="test-bilde" />
+          </div>
+        </div>
+      </section>
+
+      <section id="fourth_section_2">
+        <div class="section_wrapper">
+          <div class="bilde1">
+            <img src="bilde/test2.jpg" alt="test-bilde" />
+          </div>
+          <div class="bilde2">
+            <img src="bilde/test2.jpg" alt="test-bilde" />
+          </div>
+          <div class="bilde3">
+            <img src="bilde/test2.jpg" alt="test-bilde" />
+          </div>
+        </div>
+      </section>
+    </main>
+
     <footer>
       <p>
         Author: Olivia Sand Rudsar<br />
