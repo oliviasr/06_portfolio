@@ -6,53 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="bilde/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="bilde/favicon-ny-link.svg" />
   </head>
   <header>
-    <div class="navbar">
-      <div class="logo">
-        <a href="index.html">
-          <img src="bilde/Artboard 1.svg" />
-        </a>
-      </div>
-      <a href="om_meg.html">Om meg</a>
-      <div class="dropdown">
-        <button class="dropbtn">Portfolio</button>
-        <div class="dropdown-content">
-          <a href="tema2.html">Tema 2</a>
-          <a href="tema3.html">Tema 3</a>
-          <a href="tema4.html">Tema 4</a>
-          <a href="tema5.html">Tema 5</a>
+    <div class="logo">
+      <a href="index.html">
+        <div class="ikon">
+          <img src="bilde/favicon-ny-web.svg" />
         </div>
-      </div>
-      <a href="index.html">Forside</a>
+      </a>
     </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Forside</a></li>
+        <div class="dropdown">
+          <li><button class="dropbtn">Portfolio</button></li>
+          <div class="dropdown-content">
+            <li><a href="tema2.html">Tema 2</a></li>
+            <li><a href="tema3.html">Tema 3</a></li>
+            <li><a href="tema4.html">Tema 4</a></li>
+            <li><a href="tema5.html">Tema 5</a></li>
+          </div>
+        </div>
+        <li><a href="om_meg.html">Om meg</a></li>
+      </ul>
+    </nav>
   </header>
 
   <body>
     <main>
       <section id="first_section_4">
         <div class="section_wrapper">
-          <h1>Tema 4</h1>
+          <h1>TEMA 4</h1>
         </div>
       </section>
 
       <section id="second_section_4">
+        <h2>Animasjon</h2>
         <div class="section_wrapper">
-          <div class="col_overskrift">Animasjon</div>
+          <div class="col_overskrift">
+            <img src="bilde/bilde-av-spill-kopi.svg" alt="bilde-av-spill" />
+          </div>
           <div class="col_text">
             <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English. Many desktop
-              publishing packages and web page editors now use Lorem Ipsum as
-              their default model text, and a search for 'lorem ipsum' will
-              uncover many web sites still in their infancy. Various versions
-              have evolved over the years, sometimes by accident, sometimes on
-              purpose (injected humour and the like).
+              I tema 4 startet vi med grunnleggende animasjon, hvor målet var å
+              lage et fungerende animert spill. Hovedfokuset var å lære om css
+              animasjoner og JavaScript, men det var også stort fokus på de
+              grafiske elementene i spillet som ble laget i Adobe Illustrator.
+              Oppgaven startet med å utvikle en ide og lage en papirprototype
+              til denne ideen. Etter design og ide var på plass utviklet vi et
+              aktivitetsdiagram for siden. Dette var et veldig hjelpsomt verktøy
+              da det tydelig viser spillet fungerer, og man får en ide av
+              hvordan spillet kan se ut. De ulike figurelementene, spill
+              skjermer og UI elementer ble rentegent og eksportert til SVG i
+              Adobe Illustartor.
+            </p>
+            <p>
+              Med ferdig designede figurer skulle spillet ferdigstilles og
+              kodes. Ved hjelp av et state-maskin diagram får man en detaljert
+              oversikt over alle elementene i spillet. Dette gjelder både hva
+              som skjer når man trykker på de ulike elementene, men også hvor
+              lang tid man har og hva som kreves for å vinne. Med et ferdig
+              state-maskin diagram er det lettere å kode i JavaScript, og få
+              spillet til å fungere som man ønsker. Ved hjelp av en digital
+              survey sendte jeg ut spillet og spørsmål knyttet til hvordan det
+              fungerer til brukere i målgruppen. Dette ga meg et godt innblikk i
+              hvordan spillet virker for brukeren, og tilbakemeldingen hjalp med
+              å endre blant annet hastigheten på spill elementene. Med denne
+              innsikten kunne jeg bedre brukeropplevelsen, og lage et bedre
+              spill.
             </p>
           </div>
         </div>
@@ -63,20 +93,32 @@
           <div class="col_text">
             <h2>Spillet</h2>
             <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English. Many desktop
-              publishing packages and web page editors now use Lorem Ipsum as
-              their default model text, and a search for 'lorem ipsum' will
-              uncover many web sites still in their infancy. Various versions
-              have evolved over the years, sometimes by accident, sometimes on
-              purpose (injected humour and the like).
+              Ideen til mitt videospill er når man som barn var med moren sin på
+              matbutikken og hadde lyst på alt man så av søtsaker, men som man
+              ikke fikk. Dette spillet går derfor ut på at man har muligheten
+              til å ta så mye man ønsker mens moren ikke ser, uten å få med seg
+              noen grønnsaker. Siden jeg fokuserer på den barnlige gleden,
+              ønsker jeg å benytte sterke og glade farger. Jeg har blitt
+              inspirert av de klassiske videospill godteriene som alltid så gode
+              ut når man var barn. Dette gjelder særlig Candy crush og fruit
+              Ninja. Reglene i spillet er at du har 25 sekunder på deg til å
+              plukke 15 slikbiter, trykker du på en grønnsak mister man 1 poeng.
+              Trykker man feil 3 ganger er spillet over, eller om du ikke greier
+              å samle nok godteri
             </p>
+            <div class="knapp">
+              <button
+                onclick="window.location.href='http://oliviasrudsar.com/kea/04_animasjon/spill/spill.html';"
+              >
+                Gå til spillet
+              </button>
+            </div>
           </div>
           <div class="col_bilde">
-            <img src="bilde/test2.jpg" alt="test-bilde" />
+            <img
+              src="bilde/oliviasr_state_machine-2.drawio-kopi.svg"
+              alt="oliviasr_state_machine"
+            />
           </div>
         </div>
       </section>
@@ -84,33 +126,45 @@
       <section id="fourth_section_4">
         <div class="section_wrapper">
           <div class="bilde1">
-            <img src="bilde/test2.jpg" alt="test-bilde" />
+            <img src="bilde/regler-kopi.svg" alt="regler" />
           </div>
           <div class="bilde2">
-            <img src="bilde/test2.jpg" alt="test-bilde" />
+            <img
+              src="bilde/spillskjerm-farger-kopi.svg"
+              alt="spillskjerm-farger"
+            />
           </div>
           <div class="bilde3">
-            <img src="bilde/test2.jpg" alt="test-bilde" />
+            <img
+              src="bilde/sluttskjerm-taper-kopi.svg"
+              alt="sluttskjerm-taper"
+            />
           </div>
         </div>
       </section>
 
       <section id="fifth_section_4">
         <div class="section_wrapper">
-          <div class="col_overskrift">Animasjon</div>
+          <div class="col_overskrift">
+            <h2>Nettsiden</h2>
+          </div>
           <div class="col_text">
             <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English. Many desktop
-              publishing packages and web page editors now use Lorem Ipsum as
-              their default model text, and a search for 'lorem ipsum' will
-              uncover many web sites still in their infancy. Various versions
-              have evolved over the years, sometimes by accident, sometimes on
-              purpose (injected humour and the like).
+              For å presentere spillet og de ulike delene knyttet til det lagde
+              jeg en enkel nettside. Denne er bygget opp med ulike HTML sider,
+              en side for hvert tema. Designet er enkelt med mye whitespace.
+              Fargene er inspirert av spillet og er derfor ulike nyanser av
+              rosa. Ved å holde nettsiden enkel er det enklere å flytte fokuset
+              over på de ulike spill elementene. Samtidig som de rosa innslagene
+              er med på å skape en helhetlig og sammensatt nettside.
             </p>
+            <div class="knapp">
+              <button
+                onclick="window.location.href='http://oliviasrudsar.com/kea/04_animasjon/spill/index.html';"
+              >
+                Gå til nettside
+              </button>
+            </div>
           </div>
         </div>
       </section>
@@ -118,25 +172,51 @@
       <section id="sixth_section_4">
         <div class="section_wrapper">
           <div class="bilde1">
-            <img src="bilde/test2.jpg" alt="test-bilde" />
+            <img src="bilde/startskjerm-tema4.png" alt="startskjerm" />
           </div>
           <div class="bilde2">
-            <img src="bilde/test2.jpg" alt="test-bilde" />
+            <img src="bilde/prosses-tema4.png" alt="prosses" />
           </div>
-          <div class="bilde3">
-            <img src="bilde/test2.jpg" alt="test-bilde" />
-          </div>
+          <!-- <div class="bilde3">
+            <img src="bilde/asset-tema4.png" alt="assetlist" />
+          </div> -->
         </div>
       </section>
     </main>
 
     <footer>
-      <p>
-        Author: Olivia Sand Rudsar<br />
-        <a href="mailto:oliviasrudsar@hotmail.com">oliviasrudsar@hotmail.com</a>
-      </p>
-    </footer>
+      <div class="fav-footer">
+        <img src="bilde/favicon-ny-web.svg" alt="favicon" />
+      </div>
 
+      <div class="footer_wrapper">
+        <div class="Portfolio">
+          <h2>Prosjekt</h2>
+          <p>
+            Author: Olivia Sand Rudsar <br />
+            Portfolio eksamen 2021/2022 <br />
+            KEA - Mulitmediedesign
+          </p>
+        </div>
+        <div class="kontakt-meg">
+          <h2>Kontakt</h2>
+          <p>
+            <a href="mailto:oliviasrudsar@hotmail.com">E-post</a> <br />
+            <a href="tlf:+4747453011">Telefon</a> <br />
+            <a href="om_meg.html">Les mere om meg</a>
+          </p>
+        </div>
+        <div class="se-mere">
+          <h2>Tidligere prosjekter</h2>
+          <p>
+            <a href="tema2.html">Grunnlegende HTML</a> <br />
+            <a href="tema3.html">Grunnlegende UX</a> <br />
+            <a href="tema4.html">Grunnlegende Animasjon</a> <br />
+            <a href="tema5.html">Grunnlegende innhold</a>
+          </p>
+        </div>
+      </div>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>

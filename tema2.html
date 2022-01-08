@@ -6,28 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="bilde/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="bilde/favicon-ny-link.svg" />
   </head>
   <header>
-    <div class="navbar">
-      <div class="logo">
-        <a href="index.html">
-          <img src="bilde/Artboard 1.svg" />
-        </a>
-      </div>
-      <a href="om_meg.html">Om meg</a>
-      <div class="dropdown">
-        <button class="dropbtn">Portfolio</button>
-        <div class="dropdown-content">
-          <a href="tema2.html">Tema 2</a>
-          <a href="tema3.html">Tema 3</a>
-          <a href="tema4.html">Tema 4</a>
-          <a href="tema5.html">Tema 5</a>
+    <div class="logo">
+      <a href="index.html">
+        <div class="ikon">
+          <img src="bilde/favicon-ny-web.svg" />
         </div>
-      </div>
-      <a href="index.html">Forside</a>
+      </a>
     </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Forside</a></li>
+        <div class="dropdown">
+          <li><button class="dropbtn">Portfolio</button></li>
+          <div class="dropdown-content">
+            <li><a href="tema2.html">Tema 2</a></li>
+            <li><a href="tema3.html">Tema 3</a></li>
+            <li><a href="tema4.html">Tema 4</a></li>
+            <li><a href="tema5.html">Tema 5</a></li>
+          </div>
+        </div>
+        <li><a href="om_meg.html">Om meg</a></li>
+      </ul>
+    </nav>
   </header>
 
   <body>
@@ -37,19 +48,29 @@
       </section>
 
       <section id="second_section_2">
+        <h1>Grunnleggende HTML</h1>
         <div class="section_wrapper">
-          <div class="col_overskrift">
-            <h1>Grunnleggende HTML</h1>
+          <div class="col_bilde">
+            <img
+              src="bilde/responsive-elhuset.jpg"
+              alt="responsive webdesign"
+            />
           </div>
           <div class="col_text">
-            <h3>Oppgavebeskrivelse</h3>
-            <p></p>
-            <h3>Min rolle</h3>
-            <p></p>
-            <h3>Hva har jeg lært</h3>
-            <p></p>
-            <h3>Prosses</h3>
-            <p></p>
+            <p>
+              I tema 2 arbeidet vi med grunnleggende HTML, og hvordan vi kan
+              bruke disse ferdighetene til å lage en responsiv nettside.
+              Nettsiden skulle lages i HTML og CSS basert på et selvvalgt
+              konsept med satte rammer rundt design. Min gruppe fikk utdelt Flat
+              design, og jeg valgte å bruke dette designet til å lag en El
+              bedrift kaldt «EL-Huset». Layouten og oppsettet på nettsiden måtte
+              kodes basert på en gitt wireframe, som viste hvordan bilder, tekst
+              og overskrifter skulle være i både mobil og web versjon. Dette
+              oppsette ble først utprøvd i XD, hvor man kunne se hvordan bilder
+              og layout fungerte sammen. Videre ble nettsiden kodet i Visual
+              Studio Code. Denne oppgaven ga meg en god innføring i hvordan man
+              lager grid, og gjør en nettside responsiv.
+            </p>
           </div>
         </div>
       </section>
@@ -57,12 +78,35 @@
       <section id="third_section_2">
         <div class="section_wrapper">
           <div class="col_text">
-            <h2>Resultat</h2>
-            <p></p>
+            <h2>Design</h2>
+            <p>
+              Designet på nettsiden skulle lages basert på en gitt stiltype, men
+              valgene man gjorde innenfor denne stilgruppen var valgfritt. Min
+              gruppe fikk utdelt Flat design, dette er en stil som benytter
+              todimensjonale figurer med sterke farger. Den minimale bruken av
+              skygger og unødvendige elementer gjør flatdesign til et
+              brukervennlig og responsivt web design som er hyppig brukt. Jeg
+              startet med å undersøke de viktigeste elementene innenfor
+              stiltypen, og laget et moodboard med det jeg syntes passet best
+              til El-Huset. Jeg valgt ut komplementærfargene blå og orange som
+              hovedelement i mitt design. Disse ble brukt både på overskrifter
+              og skygger, men også på faviconet og splashbildet. Jeg undersøkte
+              også de beste fontene å bruk ved Flat design og valgte de to som
+              passet best til mitt konsept. Både farger og fonter ble satt opp i
+              et styletile. Dette var hjelpsomt både til å ha en oversikt over
+              farger og font valg, men også for å se at de passet sammen og
+              utgjorde et stilrent og fint design.
+            </p>
+            <div class="knapp">
+              <button
+                onclick="window.location.href='http://oliviasrudsar.com/kea/02_web/04_reseponsive/responsive_site_v2/';"
+              >
+                Gå til nettside
+              </button>
+            </div>
           </div>
           <div class="col_bilde">
-            <img src="bilde/test-bilde.jpg" alt="test-bilde" />
-            <img src="bilde/test2.jpg" alt="test-bilde" />
+            <img src="bilde/styletyle-tema2.png" alt="styletyle-tema2" />
           </div>
         </div>
       </section>
@@ -70,23 +114,47 @@
       <section id="fourth_section_2">
         <div class="section_wrapper">
           <div class="bilde1">
-            <img src="bilde/test2.jpg" alt="test-bilde" />
+            <img src="bilde/screen fra website1.png" alt="website-tema2" />
           </div>
           <div class="bilde2">
-            <img src="bilde/test2.jpg" alt="test-bilde" />
-          </div>
-          <div class="bilde3">
-            <img src="bilde/test2.jpg" alt="test-bilde" />
+            <img src="bilde/screen fra website2.png" alt="website-tema2" />
           </div>
         </div>
       </section>
     </main>
 
     <footer>
-      <p>
-        Author: Olivia Sand Rudsar<br />
-        <a href="mailto:oliviasrudsar@hotmail.com">oliviasrudsar@hotmail.com</a>
-      </p>
+      <div class="fav-footer">
+        <img src="bilde/favicon-ny-web.svg" alt="favicon" />
+      </div>
+
+      <div class="footer_wrapper">
+        <div class="Portfolio">
+          <h2>Prosjekt</h2>
+          <p>
+            Author: Olivia Sand Rudsar <br />
+            Portfolio eksamen 2021/2022 <br />
+            KEA - Mulitmediedesign
+          </p>
+        </div>
+        <div class="kontakt-meg">
+          <h2>Kontakt</h2>
+          <p>
+            <a href="mailto:oliviasrudsar@hotmail.com">E-post</a> <br />
+            <a href="tlf:+4747453011">Telefon</a> <br />
+            <a href="om_meg.html">Les mere om meg</a>
+          </p>
+        </div>
+        <div class="se-mere">
+          <h2>Tidligere prosjekter</h2>
+          <p>
+            <a href="tema2.html">Grunnlegende HTML</a> <br />
+            <a href="tema3.html">Grunnlegende UX</a> <br />
+            <a href="tema4.html">Grunnlegende Animasjon</a> <br />
+            <a href="tema5.html">Grunnlegende innhold</a>
+          </p>
+        </div>
+      </div>
     </footer>
 
     <script src="index.js"></script>
