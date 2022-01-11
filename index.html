@@ -9,45 +9,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Pacifico&family=Quicksand:wght@500&display=swap"
       rel="stylesheet"
     />
     <title>Portfolio</title>
     <link rel="icon" type="image/x-icon" href="bilde/favicon-ny-link.svg" />
   </head>
-  <header>
-    <div class="logo">
-      <a href="index.html">
-        <div class="ikon">
-          <img src="bilde/favicon-ny-web.svg" />
-        </div>
-      </a>
-    </div>
-
-    <nav>
-      <ul>
-        <li><a href="index.html">Forside</a></li>
-        <div class="dropdown">
-          <li><button class="dropbtn">Portfolio</button></li>
-          <div class="dropdown-content">
-            <li><a href="tema2.html">Tema 2</a></li>
-            <li><a href="tema3.html">Tema 3</a></li>
-            <li><a href="tema4.html">Tema 4</a></li>
-            <li><a href="tema5.html">Tema 5</a></li>
-          </div>
-        </div>
-        <li><a href="om_meg.html">Om meg</a></li>
-      </ul>
-    </nav>
-  </header>
 
   <body>
+    <header class="banner">
+      <div class="logo">
+        <a href="index.html">
+          <div class="ikon">
+            <img src="bilde/favicon-ny-web.svg" alt="favicon" />
+          </div>
+        </a>
+      </div>
+
+      <button class="toggle-btn">Menu</button>
+
+      <nav>
+        <div class="ul">
+          <a href="index.html">Forside</a>
+          <div class="dropdown">
+            <button class="dropbtn">Portfolio</button>
+            <div class="dropdown-content">
+              <a href="tema2.html">Tema 2</a>
+              <a href="tema3.html">Tema 3</a>
+              <a href="tema4.html">Tema 4</a>
+              <a href="tema5.html">Tema 5</a>
+            </div>
+          </div>
+          <a href="om_meg.html">Om meg</a>
+        </div>
+      </nav>
+    </header>
+
     <main>
       <div class="forside-wrap">
         <div class="forside-text">
           <h1>Portfolio</h1>
           <p>KEA - Mulitmediedesign - 2021/2022</p>
+          <br />
           <p>Av: Olivia Sand Rudsar</p>
+          <br />
           <button onclick="window.location.href='om_meg.html';">
             Mere om meg
           </button>
@@ -57,7 +62,9 @@
 
     <footer>
       <div class="fav-footer">
-        <img src="bilde/favicon-ny-web.svg" alt="favicon" />
+        <a href="index.html">
+          <img src="bilde/favicon-ny-web.svg" alt="favicon" />
+        </a>
       </div>
 
       <div class="footer_wrapper">
@@ -80,10 +87,10 @@
         <div class="se-mere">
           <h2>Tidligere prosjekter</h2>
           <p>
-            <a href="tema2.html">Grunnlegende HTML</a> <br />
-            <a href="tema3.html">Grunnlegende UX</a> <br />
-            <a href="tema4.html">Grunnlegende Animasjon</a> <br />
-            <a href="tema5.html">Grunnlegende innhold</a>
+            <a href="tema2.html">Grunnleggende HTML</a> <br />
+            <a href="tema3.html">Grunnleggende UX</a> <br />
+            <a href="tema4.html">Grunnleggende Animasjon</a> <br />
+            <a href="tema5.html">Grunnleggende innhold</a>
           </p>
         </div>
       </div>

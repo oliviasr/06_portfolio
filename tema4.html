@@ -9,39 +9,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Pacifico&family=Quicksand:wght@500&display=swap"
       rel="stylesheet"
     />
     <title>Portfolio</title>
     <link rel="icon" type="image/x-icon" href="bilde/favicon-ny-link.svg" />
   </head>
-  <header>
-    <div class="logo">
-      <a href="index.html">
-        <div class="ikon">
-          <img src="bilde/favicon-ny-web.svg" />
-        </div>
-      </a>
-    </div>
-
-    <nav>
-      <ul>
-        <li><a href="index.html">Forside</a></li>
-        <div class="dropdown">
-          <li><button class="dropbtn">Portfolio</button></li>
-          <div class="dropdown-content">
-            <li><a href="tema2.html">Tema 2</a></li>
-            <li><a href="tema3.html">Tema 3</a></li>
-            <li><a href="tema4.html">Tema 4</a></li>
-            <li><a href="tema5.html">Tema 5</a></li>
-          </div>
-        </div>
-        <li><a href="om_meg.html">Om meg</a></li>
-      </ul>
-    </nav>
-  </header>
 
   <body>
+    <header class="banner">
+      <div class="logo">
+        <a href="index.html">
+          <div class="ikon">
+            <img src="bilde/favicon-ny-web.svg" alt="favicon" />
+          </div>
+        </a>
+      </div>
+
+      <button class="toggle-btn">Menu</button>
+
+      <nav>
+        <div class="ul">
+          <a href="index.html">Forside</a>
+          <div class="dropdown">
+            <button class="dropbtn">Portfolio</button>
+            <div class="dropdown-content">
+              <a href="tema2.html">Tema 2</a>
+              <a href="tema3.html">Tema 3</a>
+              <a href="tema4.html">Tema 4</a>
+              <a href="tema5.html">Tema 5</a>
+            </div>
+          </div>
+          <a href="om_meg.html">Om meg</a>
+        </div>
+      </nav>
+    </header>
+
     <main>
       <section id="first_section_4">
         <div class="section_wrapper">
@@ -50,7 +53,7 @@
       </section>
 
       <section id="second_section_4">
-        <h2>Animasjon</h2>
+        <div class="hovedoverskrift"><h2>Grunnleggende animasjon</h2></div>
         <div class="section_wrapper">
           <div class="col_overskrift">
             <img src="bilde/bilde-av-spill-kopi.svg" alt="bilde-av-spill" />
@@ -64,11 +67,12 @@
               Oppgaven startet med å utvikle en ide og lage en papirprototype
               til denne ideen. Etter design og ide var på plass utviklet vi et
               aktivitetsdiagram for siden. Dette var et veldig hjelpsomt verktøy
-              da det tydelig viser spillet fungerer, og man får en ide av
-              hvordan spillet kan se ut. De ulike figurelementene, spill
-              skjermer og UI elementer ble rentegent og eksportert til SVG i
-              Adobe Illustartor.
+              da det setter rammene for spillet, og man får en ide av hvordan
+              det kan se ut. De ulike figurelementene, spill skjermer og UI
+              elementer ble rentegent og eksportert til SVG filer i Adobe
+              Illustartor.
             </p>
+            <br />
             <p>
               Med ferdig designede figurer skulle spillet ferdigstilles og
               kodes. Ved hjelp av et state-maskin diagram får man en detaljert
@@ -91,20 +95,21 @@
       <section id="third_section_4">
         <div class="section_wrapper">
           <div class="col_text">
-            <h2>Spillet</h2>
+            <div class="underoverskrift"><h3>Spillet</h3></div>
+            <br />
             <p>
               Ideen til mitt videospill er når man som barn var med moren sin på
-              matbutikken og hadde lyst på alt man så av søtsaker, men som man
-              ikke fikk. Dette spillet går derfor ut på at man har muligheten
-              til å ta så mye man ønsker mens moren ikke ser, uten å få med seg
-              noen grønnsaker. Siden jeg fokuserer på den barnlige gleden,
-              ønsker jeg å benytte sterke og glade farger. Jeg har blitt
-              inspirert av de klassiske videospill godteriene som alltid så gode
-              ut når man var barn. Dette gjelder særlig Candy crush og fruit
-              Ninja. Reglene i spillet er at du har 25 sekunder på deg til å
-              plukke 15 slikbiter, trykker du på en grønnsak mister man 1 poeng.
-              Trykker man feil 3 ganger er spillet over, eller om du ikke greier
-              å samle nok godteri
+              supermarkedet og hadde lyst på alt man så av slik, men mor sa nei.
+              Dette spillet går derfor ut på å samle så mye slik man kan uten at
+              moren din ser det, uten å få med seg noen grønnsaker. Siden jeg
+              fokuserer på den barnlige gleden, ønsker jeg å benytte sterke og
+              glade farger. Jeg har blitt inspirert av de klassiske videospill
+              slikbitene som alltid så gode ut når man var barn. Dette gjelder
+              særlig Candy crush. Jeg har også blitt inspirert av fruit Ninja
+              sine sterke farger og realistiske elementer. Reglene i spillet er
+              at du har 25 sekunder på deg til å plukke 15 slikbiter, trykker du
+              på en grønnsak mister man 1 poeng. Trykker man feil 3 ganger er
+              spillet over, eller om du ikke greier å samle nok slik.
             </p>
             <div class="knapp">
               <button
@@ -145,18 +150,21 @@
 
       <section id="fifth_section_4">
         <div class="section_wrapper">
-          <div class="col_overskrift">
-            <h2>Nettsiden</h2>
+          <div class="underoverskrift">
+            <h3>Nettsiden</h3>
           </div>
+
           <div class="col_text">
             <p>
-              For å presentere spillet og de ulike delene knyttet til det lagde
-              jeg en enkel nettside. Denne er bygget opp med ulike HTML sider,
-              en side for hvert tema. Designet er enkelt med mye whitespace.
-              Fargene er inspirert av spillet og er derfor ulike nyanser av
-              rosa. Ved å holde nettsiden enkel er det enklere å flytte fokuset
-              over på de ulike spill elementene. Samtidig som de rosa innslagene
-              er med på å skape en helhetlig og sammensatt nettside.
+              For å presentere spillet og de ulike elementene og spillskjermene
+              knyttet til det lagde jeg en enkel nettside. Denne er bygget opp
+              av ulike HTML sider, en side for hvert tema. Designet er enkelt
+              med mye whitespace. Fargene på nettsiden er inspirert av spillet
+              sine hovedelementer, og jeg har valgt å benytte et mokromatisk
+              fargespekter med ulike nyanser av rosa. Ved å holde nettsiden
+              enkel er det lettere å holde fokuset på de ulike spill elementene.
+              Samtidig som de rosa innslagene er med på å skape en helhetlig og
+              sammensatt nettside.
             </p>
             <div class="knapp">
               <button
@@ -186,7 +194,9 @@
 
     <footer>
       <div class="fav-footer">
-        <img src="bilde/favicon-ny-web.svg" alt="favicon" />
+        <a href="index.html">
+          <img src="bilde/favicon-ny-web.svg" alt="favicon" />
+        </a>
       </div>
 
       <div class="footer_wrapper">
@@ -209,14 +219,15 @@
         <div class="se-mere">
           <h2>Tidligere prosjekter</h2>
           <p>
-            <a href="tema2.html">Grunnlegende HTML</a> <br />
-            <a href="tema3.html">Grunnlegende UX</a> <br />
-            <a href="tema4.html">Grunnlegende Animasjon</a> <br />
-            <a href="tema5.html">Grunnlegende innhold</a>
+            <a href="tema2.html">Grunnleggende HTML</a> <br />
+            <a href="tema3.html">Grunnleggende UX</a> <br />
+            <a href="tema4.html">Grunnleggende Animasjon</a> <br />
+            <a href="tema5.html">Grunnleggende innhold</a>
           </p>
         </div>
       </div>
     </footer>
+
     <script src="index.js"></script>
   </body>
 </html>

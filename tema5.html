@@ -9,38 +9,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Pacifico&family=Quicksand:wght@500&display=swap"
       rel="stylesheet"
     />
     <title>Portfolio</title>
     <link rel="icon" type="image/x-icon" href="bilde/favicon-ny-link.svg" />
   </head>
-  <header>
-    <div class="logo">
-      <a href="index.html">
-        <div class="ikon">
-          <img src="bilde/favicon-ny-web.svg" />
-        </div>
-      </a>
-    </div>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Forside</a></li>
-        <div class="dropdown">
-          <li><button class="dropbtn">Portfolio</button></li>
-          <div class="dropdown-content">
-            <li><a href="tema2.html">Tema 2</a></li>
-            <li><a href="tema3.html">Tema 3</a></li>
-            <li><a href="tema4.html">Tema 4</a></li>
-            <li><a href="tema5.html">Tema 5</a></li>
-          </div>
-        </div>
-        <li><a href="om_meg.html">Om meg</a></li>
-      </ul>
-    </nav>
-  </header>
   <body>
+    <header class="banner">
+      <div class="logo">
+        <a href="index.html">
+          <div class="ikon">
+            <img src="bilde/favicon-ny-web.svg" alt="favicon" />
+          </div>
+        </a>
+      </div>
+
+      <button class="toggle-btn">Menu</button>
+
+      <nav>
+        <div class="ul">
+          <a href="index.html">Forside</a>
+          <div class="dropdown">
+            <button class="dropbtn">Portfolio</button>
+            <div class="dropdown-content">
+              <a href="tema2.html">Tema 2</a>
+              <a href="tema3.html">Tema 3</a>
+              <a href="tema4.html">Tema 4</a>
+              <a href="tema5.html">Tema 5</a>
+            </div>
+          </div>
+          <a href="om_meg.html">Om meg</a>
+        </div>
+      </nav>
+    </header>
     <main>
       <section id="first_section_5">
         <div class="section_wrapper">
@@ -49,41 +52,41 @@
       </section>
 
       <section id="second_section_5">
+        <div class="hovedoverskrift"><h2>Grunnleggende innhold</h2></div>
+        <br />
         <div class="section_wrapper">
           <div class="col_overskrift">
-            <h2>Pilotvideo</h2>
+            <div class="underoverskrift"><h3>Pilotvideo</h3></div>
           </div>
           <div class="col_text">
             <p>
-              I tema 5 fikk vi en innføring i video produksjon, både opptagelsen
+              I tema 5 fikk vi en innføring i video produksjon, både opptagelse
               og postproduksjon. En av de to hovedoppgavene i dette tema var å
-              produsere en kort 1 minutts pilotvideo. I denne videoen skulle vi
-              filme en som har en Passion. Jeg og min partner filmet Rikke
-              Vigander. Hun er opptatt av klesdesign og mote, og tar en bachelor
-              innenfor dette. Filmen ble opptatt på i Phone, med et
-              telefonstativ og knappenålsmikrofon. Både intervjuet og de ulike
-              bi-rolls ble redigert i Premier pro. Her fikk man øvd seg på ulike
-              effekter, klipping og endring av lyd. Dette prosjektet ga meg en
-              god innføring i hvordan man kan produsere og lage videoinnhold.
-              Den viktigste erfaringen jeg tar med fra dette er viktigheten av å
-              ta mange bilder og bi-rolls for å kunne variere innholdet i
-              videoen mest mulig.
+              produsere en kort 1 minutts pilotvideo. I videon skulle vi filme
+              en som har en passion, og dukumetere dette. Jeg og min partner
+              filmet Rikke Vigander. Hun er en 20 år gammel jente fra Oslo som
+              studerer til å bli klesdesigner. Hennes passion er mote,
+              klesdesign og motehistorie.
             </p>
+            <br />
+            <p>
+              Filmen ble tatt opp på en iPhone, med et telefonstativ og en
+              ekstern knappenålsmikrofon. Både intervjuet og de ulike
+              bi-rollsene ble redigert i Premier pro. Her fikk man øvd seg på
+              ulike effekter, klipping og endring av lyd. Dette prosjektet ga
+              meg en god innføring i hvordan man kan produsere og lage
+              grunnlegende videoinnhold. Den beste erfaringen jeg tar med fra
+              dette er viktigheten av å ta mange bilder og bi-rolls for å kunne
+              variere innholdet i videoen mest mulig.
+            </p>
+            <div class="knapp">
+              <button
+                onclick="window.location.href='https://oliviasr.github.io/pilotnettside/';"
+              >
+                Gå til pilotnettside
+              </button>
+            </div>
           </div>
-        </div>
-      </section>
-
-      <section id="third_section_5">
-        <div class="section_wrapper">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/dAXn1zTwFOU"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
         </div>
       </section>
 
@@ -103,31 +106,47 @@
         </div>
       </section>
 
+      <section id="third_section_5">
+        <div class="section_wrapper">
+          <video controls src="gruppe25-OliviaSR.mp4"></video>
+        </div>
+      </section>
+
       <section id="fifth_section_5">
         <div class="col_overskrift">
-          <h2>Redesign oppgave</h2>
+          <div class="hovedoverskrift"><h2>Redesign oppgave</h2></div>
         </div>
         <div class="section_wrapper">
           <div class="col_gap"></div>
           <div class="col_text">
-            <h3>Vinhanen.dk</h3>
+            <div class="underoverskrift"><h3>Vinhanen.dk</h3></div>
+            <br />
             <p>
               Det andre prosjektet vi arbeidet med innenfor grunnleggende
               innhold var å redesign en selvvalgt nettside. Oppgaven skulle
-              løses som en gruppe hvor vi skulle produserer både video, bilder
-              og det nye designet på siden. Vi valgte å arbeide med Vinhanen.dk.
-              Intervjuet, filmingen og fotoene ble tatt og gjennomført av hele
-              gruppen på bedriften sin vinbar på Nørrebro. Med gode innspill
-              etter båre BERT og 5 Seconds test hadde vi en god oversikt over
-              hva det var viktig å endre. Videre ble vi enige om et felles
-              moodboard og stiltile vi skulle følge, og lagde en wirefram for
-              hver side. Hvert gruppemedlem ble ansvarlig for å kode hver sin
-              side, samt redigere bildene som skulle brukes. Vi hold daglige
-              SCRUM møter som gjorde det lett for oss å følge med på prosessen
+              løses som en gruppe hvor vi skulle produserer innhold i form av
+              både video, bilder og det nye designet på siden. Vi valgte å
+              arbeide med Vinhanen.dk. Dette er en bedrift som produserer
+              økologisk vin, og importerer champagne. Intervjuet, filmingen og
+              fotoene ble tatt og gjennomført av hele gruppen på bedriften sin
+              vinbar på Nørrebro. Med gode innspill etter båre BERT og 5 Seconds
+              test hadde vi en god oversikt over hva det var viktig å endre på.
+              Videre ble vi enige om et felles moodboard og styletile vi skulle
+              følge, og lagde en wirefram for hver html side.
+            </p>
+            <br />
+            <p>
+              Hvert gruppemedlem ble ansvarlig for å kode hver sin side, samt
+              redigere bildene som skulle brukes. Vi holdt daglige SCRUM møter
+              som gjorde det lett for oss å følge med på prosessen og framgangen
               til de ulike medlemmene, samt hjelpe hverandre med feil eller
               problemer. Dette ble en veldig oversiktlig og effektiv måte å nå
               de daglige målene våre på. Prosjektet endte i en presentasjon
-              avholdt av deler av gruppen, hvor vi presenterte vårt redesign
+              avholdt av deler av gruppen, hvor vi presenterte vårt redesign. Å
+              presentere forran lærere og medelever er god øving i både å pitch,
+              men også å snakke faglig. Tilbakemeldigene var også veldig
+              hjelpsomme for å bedre både design og programring til senere
+              prosjekter.
             </p>
           </div>
         </div>
@@ -136,32 +155,37 @@
       <section id="sixth_section_5">
         <div class="section_wrapper">
           <div class="vinhanen">
-            <h2>Vinhanen.dk</h2>
+            <h4>Vinhanen.dk</h4>
+            <br />
             <div class="bilde1">
-              <img src="bilde/forside ga.png" alt="test-bilde" />
+              <img src="bilde/forside-ga.png" alt="test-bilde" />
             </div>
             <div class="bilde1">
-              <img src="bilde/vin ga.png" alt="test-bilde" />
+              <img src="bilde/vin-ga.png" alt="test-bilde" />
             </div>
             <div class="bilde1">
-              <img src="bilde/champ ga.png" alt="test-bilde" />
+              <img src="bilde/champ-ga.png" alt="test-bilde" />
             </div>
+            <br />
             <button onclick="window.location.href='https://www.vinhanen.dk/';">
               Gå til Vinhanen.dk
             </button>
+            <br />
           </div>
 
           <div class="redesign">
-            <h2>Redesign</h2>
+            <h4>Redesign</h4>
+            <br />
             <div class="bilde1">
-              <img src="bilde/forside re.png" alt="test-bilde" />
+              <img src="bilde/forside-re.png" alt="test-bilde" />
             </div>
             <div class="bilde1">
-              <img src="bilde/vin re.png" alt="test-bilde" />
+              <img src="bilde/vin-re.png" alt="test-bilde" />
             </div>
             <div class="bilde1">
-              <img src="bilde/champ re.png" alt="test-bilde" />
+              <img src="bilde/champ-re.png" alt="test-bilde" />
             </div>
+            <br />
             <button
               onclick="window.location.href='https://priceless-kalam-2d439b.netlify.app';"
             >
@@ -174,7 +198,6 @@
       <section id="seventh_section_5">
         <div class="section_wrapper">
           <div class="col_bilde">
-            <div class="tom1"></div>
             <div class="bilde1">
               <img src="bilde/wireframe-tema5.png" alt="wireframe" />
             </div>
@@ -184,14 +207,25 @@
           </div>
 
           <div class="col_text">
-            <h3>Redesign dokumentasjon</h3>
+            <div class="underoverskrift"><h3>Redesign dokumentasjon</h3></div>
+            <br />
             <p>
-              For å holde god oversikt over viktige elementer i både
-              designprosessen og undersøkelser vi har gjennomført samlet vi alt
-              i et dokument. Under ligger noen eksempler, dette er blandt annet
-              styletilen vi brukte til redesignet, en bert undersøkelse og
-              wireframen til champagne siden.
+              For å holde oversikt over de viktige elementer i både
+              designprosessen, programeringen og undersøkelsene vi hadde
+              gjennomført samlet vi alt i et dokument. Dette gjorde det også
+              lettere for hvert gruppemedlem å finne fram til informasjon eller
+              produkjson de selv ikke hadde laget. Under ligger noen eksempler,
+              dette er blandt annet styletilen og moodboardet vi brukte til
+              redesignet, men også wireframen til champagne siden.
             </p>
+            <br />
+            <div class="knapp">
+              <button
+                onclick="window.location.href='https://docs.google.com/document/d/1szv3nbr7NHxdUZXyXvRLPcL-laIskPYaH-pKRkca2W8/edit?usp=sharing';"
+              >
+                Gå til dokumentasjon
+              </button>
+            </div>
           </div>
         </div>
       </section>
@@ -199,12 +233,8 @@
       <section id="eight_section_5">
         <div class="section_wrapper">
           <div class="bilde1">
-            <img src="bilde/Bert undersøkelse resultat.jpg" alt="BERT" />
+            <img src="bilde/moodboard-re.png" alt="moodboard" />
           </div>
-
-          <!-- <div class="bilde2">
-            <img src="bilde/wireframe-tema5.png" alt="wireframe" />
-          </div> -->
 
           <div class="bilde3">
             <img src="bilde/styletile-tema5.png" alt="styletyle-tema5" />
@@ -215,7 +245,9 @@
 
     <footer>
       <div class="fav-footer">
-        <img src="bilde/favicon-ny-web.svg" alt="favicon" />
+        <a href="index.html">
+          <img src="bilde/favicon-ny-web.svg" alt="favicon" />
+        </a>
       </div>
 
       <div class="footer_wrapper">
@@ -238,10 +270,10 @@
         <div class="se-mere">
           <h2>Tidligere prosjekter</h2>
           <p>
-            <a href="tema2.html">Grunnlegende HTML</a> <br />
-            <a href="tema3.html">Grunnlegende UX</a> <br />
-            <a href="tema4.html">Grunnlegende Animasjon</a> <br />
-            <a href="tema5.html">Grunnlegende innhold</a>
+            <a href="tema2.html">Grunnleggende HTML</a> <br />
+            <a href="tema3.html">Grunnleggende UX</a> <br />
+            <a href="tema4.html">Grunnleggende Animasjon</a> <br />
+            <a href="tema5.html">Grunnleggende innhold</a>
           </p>
         </div>
       </div>

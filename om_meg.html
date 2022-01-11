@@ -9,44 +9,126 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Pacifico&family=Quicksand:wght@500&display=swap"
       rel="stylesheet"
     />
     <title>Portfolio</title>
     <link rel="icon" type="image/x-icon" href="bilde/favicon-ny-link.svg" />
   </head>
-  <header>
-    <div class="logo">
-      <a href="index.html">
-        <div class="ikon">
-          <img src="bilde/favicon-ny-web.svg" />
-        </div>
-      </a>
-    </div>
-
-    <nav>
-      <ul>
-        <li><a href="index.html">Forside</a></li>
-        <div class="dropdown">
-          <li><button class="dropbtn">Portfolio</button></li>
-          <div class="dropdown-content">
-            <li><a href="tema2.html">Tema 2</a></li>
-            <li><a href="tema3.html">Tema 3</a></li>
-            <li><a href="tema4.html">Tema 4</a></li>
-            <li><a href="tema5.html">Tema 5</a></li>
-          </div>
-        </div>
-        <li><a href="om_meg.html">Om meg</a></li>
-      </ul>
-    </nav>
-  </header>
 
   <body>
-    <main></main>
+    <header class="banner">
+      <div class="logo">
+        <a href="index.html">
+          <div class="ikon">
+            <img src="bilde/favicon-ny-web.svg" alt="favicon" />
+          </div>
+        </a>
+      </div>
+
+      <button class="toggle-btn">Menu</button>
+
+      <nav>
+        <div class="ul">
+          <a href="index.html">Forside</a>
+          <div class="dropdown">
+            <button class="dropbtn">Portfolio</button>
+            <div class="dropdown-content">
+              <a href="tema2.html">Tema 2</a>
+              <a href="tema3.html">Tema 3</a>
+              <a href="tema4.html">Tema 4</a>
+              <a href="tema5.html">Tema 5</a>
+            </div>
+          </div>
+          <a href="om_meg.html">Om meg</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="first_section_0">
+        <h1>OM MEG</h1>
+      </section>
+
+      <section id="second_section_0">
+        <div class="section_wrapper">
+          <div class="colbilde">
+            <img src="bilde/passfoto-kopi.jpg" alt="Passfoto" />
+          </div>
+          <div class="col_text">
+            <h2>Olivia Sand Rudsar</h2>
+            <br />
+            <h3>Studerende på KEA Mulitmediedesign</h3>
+            <br />
+            <div class="linje"></div>
+            <p>
+              Mitt navn er Olivia Sand Rudsar, jeg er en 20 år gammel jente fra
+              Oslo, Norge. Jeg har vokst opp med min mor, far, søster og hund.
+              Etter gymnaset tok jeg et sabbatsår for å arbeide, og finne ut hva
+              jeg ønsket å studere. Etter et år med arbeid i Oslo fant jeg ut at
+              jeg ønsket å flytte et annet sted, og oppleve noe nytt. Jeg
+              begynte derfor å lete etter studier både i andre byer i Norge, men
+              også i utlandet.
+            </p>
+            <br />
+            <p>
+              Jeg fikk høre om KEA gjennom en venn, og så raskt at det var mange
+              mulige studieretninger der som kunne passet for meg. Jeg søkte tre
+              ulike linjer, og kom inn på multimediedesign noe jeg er veldig
+              fornøyd med. Jeg har litt erfaring fra både koding og UX fra før
+              da jeg hadde dette som valgfag på gymnaset. Så jeg viste at dette
+              var noe jeg syntes var spennende. Etter å ha bodd i København og
+              gått på studiet i nå et halvt år er jeg veldig fornøyd med valgte
+              jeg tok. Jeg elsker byen, og syntes både studiet, lærerne og
+              elvene er over all forventning. Jeg ser fram til mange år til i
+              København med nye impulser, utfordringer og bekjentskap.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="third_section_0">
+        <div class="section_wrapper">
+          <div class="col_text01">
+            <h4>Arbeid</h4>
+            <br />
+            <p>
+              2021- : Kompas kommunication <br />
+              2020-2021:Lærervikar <br />
+              2020-2021:Resepsjonist på legekontor 2020-2021:Heisvakt på Tryvann
+              alpinanlegg <br />
+              2018-2020:Smoothie butikk
+            </p>
+          </div>
+
+          <div class="col_text01">
+            <h4>Erfaringer</h4>
+            <br />
+            <p>
+              Valgfag på gymnaset: <br />
+              -Grunnlegende HTML, CSS og photoshoop <br />
+              -Markedsføring 1 og 2 <br />
+              -Bedriftsutvikling
+            </p>
+          </div>
+
+          <div class="col_text01">
+            <h4>Studie</h4>
+            <br />
+            <p>
+              2021- : KEA - Mulitmediedesign <br />
+              2017-2020: Oslo handelsgymnasium <br />
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer>
       <div class="fav-footer">
-        <img src="bilde/favicon-ny-web.svg" alt="favicon" />
+        <a href="index.html">
+          <img src="bilde/favicon-ny-web.svg" alt="favicon" />
+        </a>
       </div>
 
       <div class="footer_wrapper">
@@ -69,14 +151,15 @@
         <div class="se-mere">
           <h2>Tidligere prosjekter</h2>
           <p>
-            <a href="tema2.html">Grunnlegende HTML</a> <br />
-            <a href="tema3.html">Grunnlegende UX</a> <br />
-            <a href="tema4.html">Grunnlegende Animasjon</a> <br />
-            <a href="tema5.html">Grunnlegende innhold</a>
+            <a href="tema2.html">Grunnleggende HTML</a> <br />
+            <a href="tema3.html">Grunnleggende UX</a> <br />
+            <a href="tema4.html">Grunnleggende Animasjon</a> <br />
+            <a href="tema5.html">Grunnleggende innhold</a>
           </p>
         </div>
       </div>
     </footer>
+
     <script src="index.js"></script>
   </body>
 </html>

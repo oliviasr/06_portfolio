@@ -9,39 +9,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Pacifico&family=Quicksand:wght@500&display=swap"
       rel="stylesheet"
     />
     <title>Portfolio</title>
     <link rel="icon" type="image/x-icon" href="bilde/favicon-ny-link.svg" />
   </head>
-  <header>
-    <div class="logo">
-      <a href="index.html">
-        <div class="ikon">
-          <img src="bilde/favicon-ny-web.svg" />
-        </div>
-      </a>
-    </div>
-
-    <nav>
-      <ul>
-        <li><a href="index.html">Forside</a></li>
-        <div class="dropdown">
-          <li><button class="dropbtn">Portfolio</button></li>
-          <div class="dropdown-content">
-            <li><a href="tema2.html">Tema 2</a></li>
-            <li><a href="tema3.html">Tema 3</a></li>
-            <li><a href="tema4.html">Tema 4</a></li>
-            <li><a href="tema5.html">Tema 5</a></li>
-          </div>
-        </div>
-        <li><a href="om_meg.html">Om meg</a></li>
-      </ul>
-    </nav>
-  </header>
 
   <body>
+    <header class="banner">
+      <div class="logo">
+        <a href="index.html">
+          <div class="ikon">
+            <img src="bilde/favicon-ny-web.svg" alt="favicon" />
+          </div>
+        </a>
+      </div>
+
+      <button class="toggle-btn">Menu</button>
+
+      <nav>
+        <div class="ul">
+          <a href="index.html">Forside</a>
+          <div class="dropdown">
+            <button class="dropbtn">Portfolio</button>
+            <div class="dropdown-content">
+              <a href="tema2.html">Tema 2</a>
+              <a href="tema3.html">Tema 3</a>
+              <a href="tema4.html">Tema 4</a>
+              <a href="tema5.html">Tema 5</a>
+            </div>
+          </div>
+          <a href="om_meg.html">Om meg</a>
+        </div>
+      </nav>
+    </header>
     <main>
       <section id="first_section_3">
         <div class="section_wrapper">
@@ -50,20 +52,22 @@
       </section>
 
       <section id="second_section_3">
-        <h2>Grunnlegende UX</h2>
+        <div class="hovedoverskrift"><h2>Grunnleggende UX</h2></div>
+        <br />
         <div class="section_wrapper">
-          <div class="col_overskrift">
-            <h2>Prototype</h2>
+          <div class="underoverskrift">
+            <h3>Prototype</h3>
           </div>
           <div class="col_text">
             <p>
               Tema 3 sitt hovedfokus var å lære oss om, og skape forståelse
               omkring samspillet mellom bruker og produktutvikling. Dette gjorde
-              vi ved bruk av ulike teorier, verktøy og metoder som hjelper oss
-              med å finne ut hva den faktiske brukeren ønsker og syntes er
-              viktig både når det gjelder UI elementer og design. Temaet
-              innenfor grunnleggende UX gikk ut på å lage en prototype til en
-              nettside og stadig gjennomføre tester og undersøkelser for å bedre
+              vi ved hjelp av ulike teorier, verktøy og metoder som lettere
+              samler informasjon fra den faktiske brukeren. Det gir en god
+              oversikt over hva en forbruker ønsker og syntes er viktig både når
+              det gjelder UI elementer og design. Prosjektet innenfor
+              grunnleggende UX gikk ut på å lage en prototype til en nettside og
+              stadig gjennomføre tester og undersøkelser for å bedre
               brukeropplevelsen på siden. I prosjektet sin startfase intervjuet
               jeg flere personer om deres handlevaner på nett, og fant ut hva de
               liker og ikke liker med netthandel. Dette ga meg et innblikk i hva
@@ -71,17 +75,19 @@
               utviklingsfasen. Prosjektet gikk ut på å lage en nettbutikk med
               fokus på salg av T-shirts.
             </p>
+            <br />
             <p>
-              Jeg ønsket å lage t-shirts laget av ull, for å finne ut om dette
-              var noe folk ønsket lagde jeg en survey. Jeg syntes en digital
-              survey er den mest effektive måten å samle inn mye og spesifikk
-              informasjon på. Resultatene fra undersøkelsen var positive, og jeg
-              gikk dermed videre med moodboard og designfasen. Den mest
-              avgjørende fasen for mitt prosjekt var testfasen. Ved å la de i
-              målgruppen navigere seg fram på siden og se de ulike løsningene ga
-              meg mye innsikt i hva som fungerte og ikke. Dette temaet var
-              veldig hjelpsomt da det ga en ny forståelse om hvor viktig
-              brukerne og deres meninger er for det ferdige resultatet og
+              Jeg ønsket å lage en website som selger t-shirts og trøyer laget
+              av ull, samt ull såpe som riktig behandlig av produktene. For å
+              finne ut om dette var noe folk ønsket lagde jeg en survey. Jeg
+              syntes en digital survey er den mest effektive måten å samle inn
+              mye og spesifikk informasjon på. Resultatene fra undersøkelsen var
+              positivt, og jeg gikk dermed videre med moodboard og designfasen.
+              Den mest avgjørende fasen for mitt prosjekt var testfasen. Ved å
+              la de i målgruppen navigere seg fram på siden og se de ulike
+              løsningene ga meg mye innsikt i hva som fungerte og ikke. Dette
+              temaet var veldig hjelpsomt da det ga en ny forståelse om hvor
+              viktig brukerne og deres meninger er for det ferdige resultatet og
               kvaliteten.
             </p>
             <div class="knapp">
@@ -98,11 +104,19 @@
       <section id="third_section_3">
         <div class="section_wrapper">
           <div class="bilde1">
-            <img src="bilde/Forside.jpg" alt="test-bilde" />
+            <img src="bilde/Forside.jpg" alt="forside prototype" />
           </div>
           <div class="bilde2">
-            <img src="bilde/Bergen t-shirt.jpg" alt="test-bilde" />
-            <img src="bilde/Handlekurv.jpg" alt="test-bilde" />
+            <img
+              class="eksemel1"
+              src="bilde/bergen-t-shirt.jpg"
+              alt="produkt prototype"
+            />
+            <img
+              class="eksempel2"
+              src="bilde/Handlekurv.jpg"
+              alt="handlekurv prototype"
+            />
           </div>
           <!-- <div class="bilde3"></div> -->
         </div>
@@ -110,37 +124,45 @@
 
       <section id="ekstra_section_3">
         <div class="section_wrapper">
-          <h3>
-            «Vi i Wool of Norway ønsker å lagebærekraftige og moteriktige klær
-            for kvinner.Mote og komfort skal gå hånd i hånd, selv i et kjøligere
-            nordisk klima.»
-          </h3>
+          <h5>
+            «Vi i Wool of Norway ønsker å lage bærekraftige og moteriktige klær
+            for kvinner. Mote og komfort skal gå hånd i hånd, selv i et
+            kjøligere nordisk klima.»
+          </h5>
+          <br />
+          <h6>-Wool of Norway</h6>
         </div>
       </section>
 
       <section id="fourth_section_3">
         <div class="section_wrapper">
           <div class="col_overskrift">
-            <h2>Pitch</h2>
+            <div class="underoverskrift"><h3>Pitch</h3></div>
+            <br />
           </div>
           <div class="col_text">
             <p>
-              En viktig del av produktutvikling er å overbevise og selge
-              produktet sitt til brukeren. Dette kan man gjøre blant annet
-              gjennom en pitch. Målet er å overbevise om at det du har er et bra
-              produkt som kommer til å selge. I min pitch la jeg lik vekt på å
-              selge inn ideen og produktet som jeg gjorde på testene og
-              tilbakemeldingene. Dette valgte jeg fordi jeg syntes produktet og
-              dens egenskaper selger seg selv.
+              En viktig del av produktutvikling er å overbevise og selge inn
+              produktet sitt på en best mulig måte. Dette kan man gjøre blant
+              annet gjøre gjennom en pitch. Målet er å overbevise om at det du
+              har er et bra produkt som kommer til å selge. I min pitch la jeg
+              lik vekt på å selge inn ideen og produktet som jeg gjorde på
+              testene og tilbakemeldingene. Dette valgte jeg fordi jeg syntes
+              produktetets egenskaper og kvaliteter snakker for seg selv, i like
+              stor grad som bekreftelsen fra brukerne og undersøkelsene.
             </p>
+            <br />
             <p>
-              Etter å ha fortalt om hvordan jeg kom fram til den endelige
-              prototypen vise jeg rundt på siden, og hvordan det er å bruke den.
-              Jeg syntes denne øvelsen var veldig lærerike da den gir et godt
-              innblikk i hvordan man må prioritere viktigheten av de ulike
-              elementene. Når man har begrenset med tid er det viktig å velge
-              innholdet nøye. Dette var også en god øvelse i å snakke faglig
-              foran andre.
+              Etter å ha gått gjennom de ulike prossesene og undersøkelsene jeg
+              hadde gjennomført viste jeg resultatet av den endlige prototypen.
+              Her fikk jeg både spørsmål og feedback som var hjelpsomt for å se
+              viktigheten av selv de minste elementene på protoypen. Jeg syntes
+              denne øvelsen var veldig lærerike da den gir et godt innblikk i
+              hvordan valg man har tatt ikke nødvendigvis er de beste for en god
+              bruker opplevelse. Selv de miste detaljene har en betydning når
+              det kommer til kvaliteten på nettsiden. Dette var også en god
+              øvelse i å snakke faglig foran andre, og både gi og motta
+              feedback.
             </p>
           </div>
         </div>
@@ -163,7 +185,9 @@
 
     <footer>
       <div class="fav-footer">
-        <img src="bilde/favicon-ny-web.svg" alt="favicon" />
+        <a href="index.html">
+          <img src="bilde/favicon-ny-web.svg" alt="favicon" />
+        </a>
       </div>
 
       <div class="footer_wrapper">
@@ -186,10 +210,10 @@
         <div class="se-mere">
           <h2>Tidligere prosjekter</h2>
           <p>
-            <a href="tema2.html">Grunnlegende HTML</a> <br />
-            <a href="tema3.html">Grunnlegende UX</a> <br />
-            <a href="tema4.html">Grunnlegende Animasjon</a> <br />
-            <a href="tema5.html">Grunnlegende innhold</a>
+            <a href="tema2.html">Grunnleggende HTML</a> <br />
+            <a href="tema3.html">Grunnleggende UX</a> <br />
+            <a href="tema4.html">Grunnleggende Animasjon</a> <br />
+            <a href="tema5.html">Grunnleggende innhold</a>
           </p>
         </div>
       </div>
